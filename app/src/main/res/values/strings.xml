@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">LinioTest</string>
+    <string name="header_title">Favoritos</string>
+    <string name="header_favorites">Todos mis favoritos</string>
+    <string name="collection_name">Collection Name</string>
+    <string name="collection_count">0</string>
+    <string name="create_collection">Crear colección</string>
+    <string name="home">INICIO</string>
+    <string name="search">BUSCAR</string>
+    <string name="favorite">FAVORITOS</string>
+    <string name="account">MI CUENTA</string>
+    <string name="cart">CARRITO</string>
+
+</resources>

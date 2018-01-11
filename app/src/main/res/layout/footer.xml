@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@color/footer">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="4dp"
+            android:src="@drawable/ic_nd_ic_home_off" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/home"
+            android:textSize="9sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/search"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="4dp"
+            android:src="@drawable/ic_nd_ic_search_off" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/search"
+            android:textSize="9sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/favorite"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/search"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="4dp"
+            android:src="@drawable/ic_nd_ic_fav_on_nav" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/favorite"
+            android:textSize="9sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/account"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/favorite"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="4dp"
+            android:src="@drawable/ic_nd_ic_account_off" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/account"
+            android:textSize="9sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/cart"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/account"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="4dp"
+            android:src="@drawable/ic_nd_ic_cart_off" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/cart"
+            android:textSize="9sp" />
+    </LinearLayout>
+
+</LinearLayout>
